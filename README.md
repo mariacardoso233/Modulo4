@@ -1,2 +1,2 @@
 # Modulo4
-JavaScrip
+JavaScript
