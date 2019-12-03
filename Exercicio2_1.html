@@ -8,10 +8,14 @@
 </head>
 <body>
     <script>
-        var num1 = prompt("Insira o primeiro número");
-        var num2 = prompt("Insira o segundo número"); 
+        var num1, num2
+        num1 = prompt("Insira o primeiro número", "0");
+        num2 = prompt("Insira o segundo número", "0"); 
         
-        if (num1 < num2) {
+        if (parseInt(num1, 10) > parseInt(num2, 10)) {
+            console.log(
+                "O maior de" + num1 + "e" + num2 + "é" + num1 + "."
+            )
             num1 + "é menor que" + num2;
         } else {
             num1 + "é maior que" + num2;
